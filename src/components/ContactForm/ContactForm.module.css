@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 12px 0;
+    align-items: center;
+}
+
+.formBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    width: 100px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.errorMessage {
+    color: red;
+}
